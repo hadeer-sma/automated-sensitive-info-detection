@@ -44,5 +44,22 @@ The project structure is organized as follows:
       │   ├── cnn_model.py
       │   ├── statistical_model.py
       │   ├── tfidf_model.py
-      │   └── preprocessing.py
+      │   └── preprocessing.py 
+   ```
+- data/: Contains the dataset used for training and evaluating the models.
+- src/: Contains the source code for different models used to detect sensitive information detection.
 
+## Dependencies
+
+The project has the following dependencies:
+
+- gensim
+- nltk
+- Tensorflow
+- textblob
+- en_core_web_sm 
+
+Please refer to the requirements.txt file for a complete list of dependencies with their versions.
+
+## License
+This project is licensed under the MIT License. Feel free to modify and use this code implementation according to your needs. For more details about the research paper, please refer to the associated publication.
