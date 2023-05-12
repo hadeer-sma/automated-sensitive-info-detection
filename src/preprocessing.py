@@ -103,7 +103,7 @@ def get_features(text):
 
     # Load the data
     data = pd.DataFrame()
-    data = pd.read_csv("new_test.csv")
+    data = pd.read_csv("../new_test.csv")
 
     # Extract features from text
     data['Person'] = data.text.apply(check_PERSON)

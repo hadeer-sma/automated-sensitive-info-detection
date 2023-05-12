@@ -14,7 +14,7 @@ from sklearn.naive_bayes import GaussianNB
 import joblib
 
 # Load the data
-data = pd.read_csv("test_with_features.csv")
+data = pd.read_csv("../test_with_features.csv")
 X = data[['Person', 'Loc', 'Date', 'Gpe', 'Time', 'Place', 'Pos', 'Neg', 'Url', 'Tag']]
 Y = data['label']
 
@@ -100,4 +100,4 @@ for params in parameters:
 
     # Save the best classifier
     grid = result[0]['grid']
-    joblib.dump(grid, 'clf_statistic.pickle')
+    joblib.dump(grid, '../clf_statistic.pickle')

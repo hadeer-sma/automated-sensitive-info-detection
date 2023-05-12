@@ -119,4 +119,4 @@ for res in result:
 import joblib
 
 grid = result[0]['grid']
-joblib.dump(grid, 'clf_Tfidf_img.pickle')
+joblib.dump(grid, '../clf_Tfidf_img.pickle')

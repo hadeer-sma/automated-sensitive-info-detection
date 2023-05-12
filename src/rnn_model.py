@@ -12,7 +12,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras import backend as K
 
 # Load data
-data = pd.read_csv("image_text.csv")
+data = pd.read_csv("../image_text.csv")
 
 # Define text cleaning function
 def clean_text(text):
