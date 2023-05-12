@@ -40,8 +40,9 @@ The project structure is organized as follows:
       ├── data/
       │   └── dataset.csv
       ├── src/
-      │   ├── main.py
-      │   ├── preprocessing.py
-      │   ├── deep_learning_model.py
-      │   └── evaluation.py
+      │   ├── rnn_model.py
+      │   ├── cnn_model.py
+      │   ├── statistical_model.py
+      │   ├── tfidf_model.py
+      │   └── preprocessing.py
 
