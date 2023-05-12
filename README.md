@@ -62,4 +62,4 @@ The project has the following dependencies:
 Please refer to the requirements.txt file for a complete list of dependencies with their versions.
 
 ## License
-This project is licensed under the MIT License. Feel free to modify and use this code implementation according to your needs. For more details about the research paper, please refer to the associated publication.
+This project is licensed under the GNU License. Feel free to modify and use this code implementation according to your needs. For more details about the research paper, please refer to the associated publication.
