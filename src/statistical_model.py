@@ -14,7 +14,7 @@ from sklearn.naive_bayes import GaussianNB
 import joblib
 
 # Load the data
-data = pd.read_csv("../test_with_features.csv")
+data = pd.read_csv("../data/test_with_features.csv")
 X = data[['Person', 'Loc', 'Date', 'Gpe', 'Time', 'Place', 'Pos', 'Neg', 'Url', 'Tag']]
 Y = data['label']
 

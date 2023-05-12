@@ -13,7 +13,7 @@ from tensorflow.keras import backend as K
 from gensim.models.keyedvectors import KeyedVectors
 
 # Load data
-Data = pd.read_csv("../new_test.csv")
+Data = pd.read_csv("../data/new_test.csv")
 print(Data.columns)
 
 # Define text cleaning function
