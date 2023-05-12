@@ -30,7 +30,7 @@ The goal of this project is to create a deep learning model capable of identifyi
 3. Install the required libraries.
 
     ````shell
-    pip install -r requirements.txt`
+    pip install -r requirements.txt
 
 ## Project Structure
 The project structure is organized as follows:

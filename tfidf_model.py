@@ -9,7 +9,7 @@ from sklearn.model_selection import GridSearchCV
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.ensemble import GradientBoostingClassifier
-from Get_features import clean_text
+from preprocessing import clean_text
 from sklearn.metrics import classification_report
 
 # Load the data (tweet)
